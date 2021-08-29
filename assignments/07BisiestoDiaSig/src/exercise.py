@@ -21,7 +21,7 @@ def main():
             m =m + 1
         else:
             d = d + 1
-    # Mes 2 puede tener 28 o 29 dias
+    # Mes 2 puede tener 28 o 29 dias 
     else:
         if d == 29 and y % 4 == 0 and y % 100 != 0 or y % 400 == 0:
             d = 1
